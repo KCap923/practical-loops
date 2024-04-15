@@ -56,9 +56,29 @@ console.log("___________")
 
 // Feeling Loopy
 
-ID,Name,Occupation,Age\n
-42,Bruce,Knight,41\n
-57,Bob,Fry Cook,19\n
-63,Blaine,Quiz Master,58\n
-98,Bill,Doctor’s Assistant,26
+// ID,Name,Occupation,Age\n
+// 42,Bruce,Knight,41\n
+// 57,Bob,Fry Cook,19\n
+// 63,Blaine,Quiz Master,58\n
+// 98,Bill,Doctor’s Assistant,26
+
+const titles = ["ID", "Name", "Occupation", "Age"]; 
+const numId = [ "42", "57", "63", "98"];
+const person = ["Bruce", "Bob", "Blaine", "Bill"];
+const job = ["Knight", " Fry Cook", "Quiz Master", "Doctor's Assistant"];
+const age = ["41", "19", "58", "26"];
+
+const t = [titles];
+const m = [numId];
+const x = [person];
+const j = [job];
+const a = [age];
+
+for (let i = 0; i < titles.length; i++){
+  console.log (titles [i]) ;
+}
+
+
+// console.log(titles)
+// console.log(numId)
 
